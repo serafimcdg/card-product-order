@@ -1,38 +1,190 @@
-.App {
+.table-info .input-group-text {
+  border-top-left-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
+  background-color:#658dff ;
+  min-width: 43%;
+  align-items: center;
+  justify-content: center;
+  display: grid!important;
+  line-height: 2.5!important;
+  color:white;
+  font-weight: 500;
+}
+.table-info{
+  padding-top: 25px;
+}
+.input-group{
+width: 100%!important;
+}
+/* .timer .first-timer {
+ border: 1.5px solid black!important;
+}
+.timer .second-timer {
+  border: 1.5px solid black!important;
+ } */
+.status{
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  /* border: 1.5px solid black!important; */
+  background-color: green;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.status-bar{
+  display: flex;
+  height: 25%;
+  width: 100%;
+}
+.status h3{
+ color: white;
+ margin: 0!important;
+ }
+.timer{
+  display: flex;
+  width: 100%;
+  padding-left:5px;
+}
+.timer .first-timer{
+  flex-direction: column;
+  width:50%;
+  border-radius: 10px;
+}
+.timer .second-timer{
+  flex-direction: column;
+  border-radius: 10px;
+  width:50%;
+}
+.grid1{
+  max-width: 100%;
+}
+.board{ 
+border: none!important;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+max-width: 400px;
+margin: 10px 0 0 10px;
+}
+.grid2{
+  width: 100%;
+  padding-left: 5px;
+  height: 105%;
+}
+.column-info{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+background-color:#658dff !important;
+/* border: solid 1px black; */
+height: 87%;
+border-radius: 10px;
+}
+.column-status{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin:0!important;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info-1 h3{
+  margin-bottom: 1.5rem!important;
+  color: white!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-2 h3{
+  margin-bottom: 1.5rem!important;
+  color: rgb(235, 231, 23)!important;
 }
+.info-3 h3{
+  margin-bottom: 1.5rem!important;
+  color: white!important;
+}
+.info-1 p{
+  margin-bottom: 0rem!important;
+  color: white!important;
+}
+.info-2 p{
+  margin-bottom: 0rem!important;
+  color: rgb(235, 231, 23)!important;
+}
+.info-3 p{
+  margin-bottom: 0!important;
+  color: white!important;
+}
+.progress{
+  transform: rotate(-90deg);
+  width:100%;
+  height: 1.5rem!important;
+  width: 192px;
+  position: absolute;
+  margin-top: -17px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+}
+.progress-bar1{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.progress-status{
+  display: flex;
+  width:100%;
+  align-items: center;
+  text-align: -webkit-right;
+  padding-left:5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progress-status .input-group-text{
+  width: 100%;
+  height:40%;
+  border-radius:20px;
+  justify-content: end;
+  background-color: #e9ecef;
+  font-size: 12px!important;
+ }
+ .progress-status .adjust-1{
+  width:100%;
 }
+.progress-status .adjust-2{
+  width:100%;
+}
+.progress-status2 .adjust-3{
+  width:100%;
+}
+.progress-status2{
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px!important;
+}
+.progress-status2 .input-group-text{
+  width: 88%;
+  height:40%;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  font-size:12px;
+ }
+.status-time-1 p{
+  margin-bottom:0!important;
+  font-style: 0.8rem!important;
+ }
+  h2{
+  font-size: 1.5rem!important;
+ }
+ h3{
+  font-size: 1.3rem!important;
+ }
+ p{
+  margin-bottom: 12px !important;
+ }
+ .input-group-text{
+  font-size:0.8rem!important;
+ }
